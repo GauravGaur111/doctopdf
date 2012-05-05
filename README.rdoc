@@ -1,6 +1,12 @@
 = doctopdf
 
-Description goes here.
+Jruby gem to convert microsoft office documents to pdf. Useful to render office documents in browser in rails web app settings. Uses openoffice and jodcoverter libraries to convert to pdf. 
+ Prerequisites : Jruby, Java 1.5 or later, OpenOffice.org 3.x or above. 
+ Openoffice: 
+   On Linux - aptitude install openoffice.org openoffice.org-java-common or use your preferred package manager. 
+   On Mac   - download and install the latest OpenOffice release from http://www.openoffice.org/download/index.html
+ Usage: XXXXX. 
+ Returns :   
 
 == Contributing to doctopdf
  
@@ -14,6 +20,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2012 Gaurav Gaur. See LICENSE.txt for
+Copyright (c) 2012 gauravgaur111. See LICENSE.txt for
 further details.
 

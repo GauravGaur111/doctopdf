@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "doctopdf"
   gem.homepage = "http://github.com/gauravgaur111/doctopdf"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Jruby gem to convert microsoft office documents to pdf using openoffice and jodconverter libraries}
+  gem.description = %Q{Jruby gem to convert microsoft office documents to pdf. Useful to render office documents in browser in rails web app settings.  Usage: XXXXX}
   gem.email = "gauravgaur111@gmail.com"
-  gem.authors = ["Gaurav Gaur"]
+  gem.authors = ["gauravgaur111"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -32,13 +32,13 @@ Rake::TestTask.new(:test) do |test|
   test.verbose = true
 end
 
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
-end
+#require 'simplecov/simplecovtask'
+#Rcov::RcovTask.new do |test|
+#  test.libs << 'test'
+#  test.pattern = 'test/**/test_*.rb'
+#  test.verbose = true
+#  test.rcov_opts << '--exclude "gems/*"'
+#end
 
 task :default => :test
 
@@ -47,7 +47,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "doctopdf #{version}"
+  rdoc.title = "jrtika #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
