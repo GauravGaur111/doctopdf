@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "doctopdf.gemspec",
     "jar/conf/document-formats.js",
     "jar/jod/commons-cli-1.1.jar",
     "jar/jod/commons-io-1.4.jar",
