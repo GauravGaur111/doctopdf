@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/gauravgaur111/doctopdf"
   gem.license = "MIT"
   gem.summary = %Q{Jruby gem to convert microsoft office documents to pdf using openoffice and jodconverter libraries}
-  gem.description = %Q{Jruby gem to convert microsoft office documents to pdf. Useful to render office documents in browser in rails web app settings.  Usage: Doctopdf.convert_to_pdf(input_file, output_path), where input_file is the input file with complete path and output_path is the path wehre output pdf will be produced.output_path defaults to the current directory}
+  gem.description = %Q{Jruby gem to convert microsoft office documents to pdf. Useful to render office documents in browser in rails web app settings.}
   gem.email = "gauravgaur111@gmail.com"
   gem.authors = ["gauravgaur111"]
   # dependencies defined in Gemfile

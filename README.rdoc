@@ -7,11 +7,16 @@ Jruby gem to convert microsoft office documents to pdf. Useful to render office 
               use your preferred package manager. 
    On Mac   - download and install the latest OpenOffice release from
               http://www.openoffice.org/download/index.html
- Usage: Doctopdf.convert_to_pdf(input_file, output_path), where 
-        input_file is the input file with complete path and 
-        output_path is the path wehre output pdf will be produced.
-        output_path defaults to the current directory.
- Returns: converted pdf file is places in the output directory. 
+
+ Usage: Doctopdf.convert_to_pdf(input_file), where
+        input_file is the input file with complete path.
+        It will return the path of the pdf file in a temp directory.
+
+        Doctopdf.convert_to_pdf_io(input_file), where
+        input_file is the input file with complete path.
+        It will return an io object with an in memory image of
+        the binary pdf file.
+
 
 == Contributing to doctopdf
  
